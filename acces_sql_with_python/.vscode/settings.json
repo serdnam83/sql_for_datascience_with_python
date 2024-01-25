@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "practicas",
+            "database": "test",
+            "username": "root",
+            "password": "@Ndresmariadb"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "practicas",
+            "username": "postgres",
+            "database": "practicas",
+            "password": "@Ndrespostgres"
+        }
+    ]
+}
